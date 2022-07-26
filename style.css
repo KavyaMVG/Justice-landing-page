@@ -1,0 +1,54 @@
+*,*::after,*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family:'Red Rose', cursive; 
+}
+.navbar{
+    background-color: hsl(47deg 12% 15%);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .5rem 2rem; 
+}
+.list{
+    display: flex;
+    gap: 4rem;
+}
+.button-small{
+    padding: .5rem 1.5rem;
+    background: 0;
+    color: hsl(51deg 47% 38%);
+    border: 1px solid hsl(51deg 47% 38%);
+    border-radius: 5px;
+    margin-right: 3rem;
+}
+.hero{
+    background-color:  hsl(47deg 12% 15%);
+    padding: 2rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero-heading{
+    width: 50%;
+    padding: 2rem;
+    font-size: 3.5rem;
+}
+.hero-para{
+    width: 50%;
+    padding: 2rem 4rem;
+}
+
+.hero-paragraph{
+    font-size: 1.2rem;
+}
+.justice-image{
+    width: 100%;
+    height: 60vh;
+
+    /* max-height:100vh; */
+}
