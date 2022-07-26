@@ -4,7 +4,7 @@
 
 # Justice Landing page
 
-> Project 2
+> Project 3
 
 A landing page designed using pure HTML & CSS as part of ineuron assignment.
 
